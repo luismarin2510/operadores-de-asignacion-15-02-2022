@@ -10,21 +10,27 @@ console.log(nombre,valor);
 let x = prompt("numero 1 = x","solo numeros");
 let y = prompt("numero 2 = y","solo numeros");
 /* asignacion y operadores arimeticos  */
-// let x=14;
-// let y=20;
+
 let suma;
 let resta;
 let multiplicacion;
 let divicion;
+let exponente;
+let residuo;
 
-suma=new Number (x)+new Number (y);
+suma=new Number (x)+new Number (y); // el operador de suma hay que tener en cuenta el new Number para que no pegue los numeros 
 resta=x-y;
 multiplicacion=x*y;
 divicion=x/y;
+exponente=x**y; // exponente es ** y no con (^)
+residuo=x%y; // sobrante de una division
 
 console.log(`%c Respuestas:`,"color:green; font-size:15px");
-console.log(`datos son x ${x} & y ${y}
+console.log(`datos son x=${x} & y=${y}
+
 suma= ${suma}
 resta= ${resta}
 multiplicacion= ${multiplicacion}
-divicion= ${divicion}`);
+divicion= ${divicion}
+residuo= ${residuo}
+exponente= ${exponente}`);
