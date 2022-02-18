@@ -1,8 +1,8 @@
 
-/* operador de suma */
+/* operador de resta */
 let x = prompt("numero 1 = x","solo numeros");
 let y = prompt("numero 2 = y","solo numeros");
-let suma;
-suma=new Number (x)+new Number (y);
+let resta;
+resta=x-y;
 console.log(`Los datos son x=${x} & y=${y}`);
-console.log(`repuesta = ${suma}`);
+console.log(`repuesta = ${resta}`);
