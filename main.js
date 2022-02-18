@@ -2,7 +2,7 @@
 /* operador de division */
 let x = prompt("numero 1 = x","solo numeros");
 let y = prompt("numero 2 = y","solo numeros");
-let division;
-division=x/y;
+let residuo;
+residuo=x%y;
 console.log(`Los datos son x=${x} & y=${y}`);
-console.log(`repuesta = ${division}`);
+console.log(`repuesta = ${residuo}`);
